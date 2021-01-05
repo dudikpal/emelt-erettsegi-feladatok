@@ -19,7 +19,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EUtazas {
-
     public static final String LINE_SEPARATOR = " ";
     public static final String JEGGYEL_UTAZOK = "JGY";
     private List<EUtazo> utazok = new ArrayList<>();
