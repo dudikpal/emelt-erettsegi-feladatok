@@ -28,8 +28,6 @@ public class EUtazo {
         this.jegyekSzama = jegyekSzama;
     }
 
-
-
     public int getMegalloId() {
         return megalloId;
     }
@@ -52,22 +50,5 @@ public class EUtazo {
 
     public int getJegyekSzama() {
         return jegyekSzama;
-    }
-
-    @Override
-    public String toString() {
-        String valtozo;
-        if (berletTipus == BerletTipus.JGY) {
-            valtozo = ", jegyekSzama=" + jegyekSzama;
-        } else {
-            valtozo = ", ervenyessegiIdo=" + ervenyessegiIdo.toString();
-        }
-        return "EUtazo{" +
-                "megalloId=" + megalloId +
-                ", felszallasiIdo=" + felszallasiIdo +
-                ", berletId=" + berletId +
-                ", berletTipus=" + berletTipus +
-                valtozo +
-                '}';
     }
 }

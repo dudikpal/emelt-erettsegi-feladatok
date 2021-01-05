@@ -23,10 +23,7 @@ public class EUtazas {
     public static final String LINE_SEPARATOR = " ";
     public static final String JEGGYEL_UTAZOK = "JGY";
     private List<EUtazo> utazok = new ArrayList<>();
-    /*private int jeggyelUtazok = 0;
-    private int nullaJeggyelUtazok = 0;*/
     private int berlettelKedvezmennyelUtazok = 0;
-    /*private int berlettelKedvezmenyNelkulUtazok = 0;*/
     private int ingyenesenUtazok = 0;
 
 
@@ -134,9 +131,9 @@ public class EUtazas {
         EUtazas eUtazas = new EUtazas();
         eUtazas.beolvas(eUtazas.getClass().getClassLoader().getResourceAsStream("2019okt/utasadat.txt"));
         System.out.println("2. feladat");
-        System.out.println("A buszra " + eUtazas.utasokSzama() + "utas akart felszállni\n");
+        System.out.println("A buszra " + eUtazas.utasokSzama() + " utas akart felszállni\n");
         System.out.println("3. feladat");
-        System.out.println("A buszra " + eUtazas.sumErvenytelenUtazok() + "utas nem szállhatott fel.\n");
+        System.out.println("A buszra " + eUtazas.sumErvenytelenUtazok() + " utas nem szállhatott fel.\n");
         System.out.println("4. feladat");
         System.out.println("A legtöbb utas a " + eUtazas.megalloALegtöbbUtassal() + ". megállóban nem szállhatott föl.\n");
         System.out.println("5. feladat");
@@ -146,9 +143,5 @@ public class EUtazas {
 
     public List<EUtazo> getUtazok() {
         return utazok;
-    }
-
-    public int getBerlettelKedvezmennyelUtazok() {
-        return berlettelKedvezmennyelUtazok;
     }
 }
