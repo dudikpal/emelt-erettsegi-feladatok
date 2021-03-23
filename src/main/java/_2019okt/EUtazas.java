@@ -128,7 +128,7 @@ public class EUtazas {
 
     public static void main(String[] args) {
         EUtazas eUtazas = new EUtazas();
-        eUtazas.beolvas(eUtazas.getClass().getClassLoader().getResourceAsStream("2019okt/utasadat.txt"));
+        eUtazas.beolvas(eUtazas.getClass().getClassLoader().getResourceAsStream("_2019okt/utasadat.txt"));
         System.out.println("2. feladat");
         System.out.println("A buszra " + eUtazas.utasokSzama() + " utas akart felszállni\n");
         System.out.println("3. feladat");
