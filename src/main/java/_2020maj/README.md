@@ -71,3 +71,31 @@ BC
 11:45   
 17:45 ########
 ```
+
+
+### Megoldásom
+```
+2. feladat  
+Adja meg egy település kódját! Település: SM
+ Az utolsó mérési adat a megadott településről 23:45-kor érkezett.
+
+3. feladat  
+A legalacsonyabb hőmérséklet: SM 23:45 16 fok. A legmagasabb hőmérséklet: DC 13:15 35 fok.
+
+BP 01:00 DC 02:15 SN 03:15 BC 04:45 DC 04:45 SN 05:15 SN 05:45 KE 08:45 BC 11:45
+
+BP Középhőmérséklet: 23; Hőmérséklet ingadozás: 8
+DC Középhőmérséklet: 29; Hőmérséklet ingadozás: 15
+SM Középhőmérséklet: 21; Hőmérséklet ingadozás: 8
+PA Középhőmérséklet: 20; Hőmérséklet ingadozás: 7
+SN Középhőmérséklet: 26; Hőmérséklet ingadozás: 13
+PR Középhőmérséklet: 21; Hőmérséklet ingadozás: 8
+BC NA; Hőmérséklet ingadozás: 14
+PP NA; Hőmérséklet ingadozás: 6
+KE NA; Hőmérséklet ingadozás: 13
+
+Fájlok kiírva.
+
+Process finished with exit code 0
+
+```
